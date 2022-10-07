@@ -1,0 +1,182 @@
+user=int(input("enetr the total no of peaple:"))
+seats=40
+busrequire=(user/seats)
+print("busrequire:",busrequire)
+
+
+
+
+#2foreignheat too celsius
+f=int(input('enter the temp:'))
+c=(f - 32)*5/9
+print(c)
+
+
+
+#3celsius to foreignheat
+c=int(input("enter the temp:"))
+f=(c*9/5) + 32
+print(f)
+
+
+
+#4standard deviation
+x1=int(input('enetr a value1:'))
+x2=int(input('enetr a value2:'))
+x3=int(input('enetr a value3:'))
+x4=int(input('enetr a value4:'))
+sum=(x1+x2)^2,(x3+x4)^3
+print("sum:",sum)
+m=1.23
+b=0.045
+y=m*(x1+x2+x3+x4)+b
+print(y)
+avarage=(x1+x2+x3+x4)/4
+print(avarage)
+totalsum=x1+x2+x3+x4
+print(totalsum)
+
+
+
+
+#5convert distance in cm,millimeter and cents,feets,yards
+x=int(input('enter the distance:'))
+meter=(x*1000)
+print('meter:',meter)
+cm=(meter*100)
+print('cm:',cm)
+mm=(cm*10)
+print('millimeter:',mm)
+y=3280.24
+feet=(y*x)
+print('feets:',feet)
+z=1093.6232
+yards=(x*z)
+print('yards:',yards)
+w=39370.1
+inch=(x*w)
+print('inches:',inch)
+
+
+
+
+
+#6 convert the size of your hard disk
+x=int(input('enter the gb:'))
+megabytes=(x*1024)
+print('megabytes:',megabytes)
+kb=(megabytes*1024)
+print('kilobytes:',kb)
+tb=(kb*1024)
+print('tb:',tb)
+pb=(tb*1024)
+print('pb:',pb)
+
+
+
+
+#7bio data
+name=input('enter the your sweet name:')
+age=int(input('enter the your age:'))
+height=int(input('enter the hight'))
+weight=int(input('enter the your weight:'))
+print('name of the person:',name,'age of the person:',age,'height of the person:',height,'weight of the person:',weight)
+   
+
+
+
+#8bmi calculater
+weight=int(input('enter the your weight:'))
+height=float(input('enter the your height:'))
+bmi=weight/height**2
+print(bmi)'''
+
+
+
+
+
+'''#9 user format specifiers
+name='jayaram'
+age=1.6
+height=3.535623
+weight=10.343856783
+print("name:%s,age:%f,height:%.2f,weight:%.2f"%(name,age,height,weight))
+
+
+
+
+
+
+#10 upper caseto lower case
+x=input('enter the name:')
+if(x.isupper()):
+    print(x.lower())
+if(x.islower()):
+    print(x.upper())
+
+
+
+
+
+#11 base and exponent
+x=int(input('enter the base'))
+y=int(input('enter the exponent:'))
+sum=x**y
+print(sum)
+   
+
+
+
+
+#12 take some groceries
+cost=[20,30,40,50,100,10,5,1000,39,84]
+total=sum(cost)
+print('totalcost:',total)
+avarage=total/len(cost)
+print('avarage:',avarage)
+x=(max(cost))
+print('maximum cost:',x)
+y=(min(cost))
+print('minimum cost:',y)
+  
+
+
+
+
+#14 even or odd
+x=int(input('enter a no:'))
+if(x%2==0):
+    print('it is even number')
+else:
+    print('it is odd number')
+
+
+
+
+
+#15positive no an negative no
+x=int(input('enter a number:'))
+if(x>=0):
+    print('it is possitive number')
+else:
+    print('it is negative number')'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
