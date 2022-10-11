@@ -1,0 +1,239 @@
+#13 conditional statement
+a=int(input('enter the total peaple:'))
+b=int(input('enter the total busses:'))
+c=int(input('enter the total seats:'))
+adf=5
+totalbussesadf=5*b
+totalseats=c+totalbussesadf
+busrequire=a/totalseats
+print(busrequire)
+
+
+
+
+#16 lenth
+name=input('enetr the name:')
+print(len(name))
+if (len(name)==0):
+    print('error massage')'''
+
+
+'''#17arthimatic
+a=int(input('enter  the a no:'))
+b=int(input('enter the b no:'))
+print("1.add,2.sub,3.mul,4.div,5.quit")
+choice = int(input('enter your choice:'))
+if (choice==1):
+    print('add:',a+b)
+elif(choice==2):
+    print('sub:',a-b)
+elif(choice==3):
+    print('mul:',a*b)
+elif(choice==4):
+    print('div:',a/b)
+elif(choice==5):
+    print('quit')
+else:
+    print('wrong choice')
+
+
+#18 show the menu
+print("1.kids,2.,men`s,3.women`s")
+option=int(input('enter the your option:'))
+if (option==1):
+    print('you are a kid')
+elif(option==2):
+    print('you are a gentleman')
+elif(option==3):
+    print('you are a good women')
+else:
+    print('wrong option')
+
+
+#19 in operator
+
+act=('python is a pure oriented programing language ')
+if 'pure' in act:
+    print('yes! it is present in the act')
+else:
+    ('No! it is not present in act')
+
+
+#20 which no is big
+a=[1,2,3]
+print(max(a))
+
+
+#21india marriage system
+age=int(input('enter a age:'))
+gender=input('enetr the gender::')
+if (age>24,gender =='men'):
+    print('he is elglible for marriage')
+    if (age > 22, gender == 'female'):
+        print('she is eligible for marriage')
+else:
+    print('he is not eligible for marriage')
+    
+    
+#23 operating system
+a=input ('goto first floor and buy windows mobile')
+b=input('goto second floor and buy android mobile')
+c=input('goto third floor and buy the iphones')
+print('1.windows,2.android,3.iphones')
+choice=int(input('enter  your choice:'))
+if (choice==1):
+    print('wiSndows',a)
+if (choice==2):
+    print('android',b)
+if (choice==3):
+    print('iphone')
+
+#24 age
+a= float(input("enter a age:"))
+if (a<2):
+    print('baby')
+elif(a<12):
+    print('child')
+elif (a<19):
+    print('teenager')
+elif (a<60):
+    print('adult')
+elif(90>a):
+    print('old man')
+else:
+    print('sorry')
+
+
+
+#25 divisable by A by B
+a=int(input('enter the a value:'))
+b=int(input('enter the b value:'))
+if (a%b==0):
+    print('a is divisable in b')
+else:
+    print('a is not divisable by b')
+
+
+
+
+#26 
+name=input('enter a name:')
+lowerc=0
+upperc=0
+digitc=0
+specialc=0
+for char in name:
+    if char.islower():
+        lowerc=lowerc+1
+    elif char.isupper():
+        upperc=upperc+1
+    elif char.isdigit():
+        digitc=digitc+1
+else:
+    specialc=specialc+1
+print('lower count',lowerc)
+print('upper count',upperc)
+print('digit count',digitc)
+print('special count',specialc)
+
+
+#26 categary
+ch=input('enter a anything:')
+if ch>='A'  and ch<='Z':
+    print('it is uppercase')
+elif ch>='a' and ch<='z':
+    print('it is lowercase')
+elif ch>='0' and ch<='9':
+    print('it is a digit')
+elif ch==' ':
+    print('space')
+else:
+    print('spectial function')
+
+#looping
+
+# 25prime no
+num=int(input('enter a number:'))
+if num>1:
+    for i in range(2,num):
+        if (num%i)==0:
+            break
+        else:
+            print('it is prime no')
+n=int(input('enter a number:'))
+n>1
+if (n%2)==0:
+    print('it is not prime')
+else:
+    print('it is prime')
+
+
+
+
+# 26digit are not
+name=input('enter a anything:')
+if name>='0' and name<='9':
+    print('it is a digit')
+else:
+    print('it is not digit')
+print(len(name))
+
+
+#27 alphabet are not
+name=input('enter the anything:')
+if name>='a' and name<='z':
+    print('it is a lower  alphabets')
+print(len(name))
+
+
+
+
+#28  alphabet are not
+name=input('enter the anything:')
+if name>='A' and name<='Z':
+    print('it is a upper alphabets')
+print(len(name))'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
