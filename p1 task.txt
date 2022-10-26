@@ -1,0 +1,36 @@
+#area and parameter in square
+
+print("#area and parameter in square")
+side=int(input("enter a side in a meter:"))
+area=side*side
+perimeter=4*side
+print('square of area:',area,"m^2")
+print('square of perimeter:',perimeter,"M")
+
+print("======================")
+
+#arthematic operator by using integer
+
+print("#arthematic operator by using integer")
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+print("a+b =",a+b)
+print("a-b =",a-b)
+print("a*b =",a*b)
+print("a/b =",a/b)
+print("a//b =",a//b)
+print("a%b =",a%b)
+
+print("======================")
+
+#arthematic operator by using int and float
+
+print("#arthematic operator by using int and float")
+a=int(input("enter a int value:"))
+b=float(input("enter a float value:"))
+print("a+b =",a+b)
+print("a-b =",a-b)
+print("a*b =",a*b)
+print("a/b =",a/b)
+print("a//b =",a//b)
+print("a%b =",a%b)
